@@ -15,7 +15,7 @@ btn.addEventListener("click", (params) => {
     let items = document.querySelectorAll(".item");
     items.forEach(item=>{
         item.addEventListener("dragstart",function 
-        () {    
+        () {        
             drag = item ;
             item.style.opacity = '.5'
           })
